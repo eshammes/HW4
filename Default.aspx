@@ -30,8 +30,7 @@
             <asp:TextBox ID="tb_atd" runat="server" Width="112px"></asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="btn_calculate" runat="server" Text="Calculate" Width="100px" />
-            <asp:Button ID="btn_clear" runat="server" style="margin-left: 50px" Text="Clear" Width="100px" />
+            <asp:Button ID="btn_calculate" runat="server" Text="Calculate" Width="150px" />
         </p>
         <p>
             <asp:Label ID="lbl_tr" runat="server" Text="Tax Rate:    "></asp:Label>
@@ -41,6 +40,11 @@
             <asp:Label ID="lbl_np" runat="server" Text="Net Pay:      "></asp:Label>
             <asp:TextBox ID="tb_np" runat="server" Enabled="False" style="margin-left: 78px" Width="112px"></asp:TextBox>
         </p>
+        <p>
+            <asp:Button ID="btn_clear" runat="server" style="margin-left: 0px" Text="Clear" Width="150px" />
+        </p>
+        <p>
+            &nbsp;</p>
     </form>
 </body>
 </html>
