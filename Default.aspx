@@ -12,6 +12,7 @@
     <div>
     
         Evan&#39;s Salary Calculator<br />
+        <br />
     
     </div>
         <asp:Label ID="lbl_hw" runat="server" Text="Hourly Wage:   "></asp:Label>
@@ -34,7 +35,7 @@
         </p>
         <p>
             <asp:Label ID="lbl_tr" runat="server" Text="Tax Rate:    "></asp:Label>
-            <asp:TextBox ID="tb_atd0" runat="server" Enabled="False" style="margin-left: 72px" Width="112px"></asp:TextBox>
+            <asp:TextBox ID="tb_rate" runat="server" Enabled="False" style="margin-left: 72px" Width="112px"></asp:TextBox>
         </p>
         <p>
             <asp:Label ID="lbl_np" runat="server" Text="Net Pay:      "></asp:Label>
